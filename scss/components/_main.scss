@@ -17,6 +17,11 @@ html {
 	box-sizing: inherit;
 }
 
+h1 {
+    font-family: $chewy;
+    font-size: 3em;
+    color: $dark-green;
+}
 
 body{
   font-family: sans-serif;
@@ -52,16 +57,17 @@ header {
     li {
         list-style-type: none;
         &:first-child a{
-            border-top: 1ps solid $light-grey;
+            border-top: 1ps solid $light-green;
         }
     a{
+        font-family: $raleway;
         display: block;
         text-align: center;
         padding: .5em 1em;
-        border-bottom: 1px solid $light-grey;
+        border-bottom: 1px solid $light-green;
         text-decoration: none;
         font-size: 1.25em;
-        color: $purple;
+        color: $dark-green;
     }
     } // li
 } // .navigation
@@ -72,7 +78,6 @@ header {
     text-decoration:none;
     height: 40px;
     width: 40px;
-    background-color: $blue;
     &:before{
         height: 40px;
         width: 40px;
@@ -147,14 +152,14 @@ header {
     text-decoration: none;
         padding: .5em 1 em;
         display: inline-block;
-        color: $purple;
+        color: $dark-green;
         text-align: center;
         float: right;
         right: 80%;
         font-size: 1.5em;
         border: none;
          &:hover {
-        border-bottom: 4px solid $purple;
+        border-bottom: 4px solid $light-green;
                 
         }
 
