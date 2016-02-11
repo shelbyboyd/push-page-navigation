@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Chewy|Raleway);
 @-moz-viewport {
   width: device-width;
   scale: 1;
@@ -27,6 +28,12 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-family: Chewy, sans-serif;
+  font-size: 3em;
+  color: #015301;
 }
 
 body {
@@ -64,17 +71,18 @@ header {
 }
 
 .navigation li:first-child a {
-  border-top: 1ps solid #ccc;
+  border-top: 1ps solid #87e276;
 }
 
 .navigation li a {
+  font-family: Raleway, sans-serif;
   display: block;
   text-align: center;
   padding: .5em 1em;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #87e276;
   text-decoration: none;
   font-size: 1.25em;
-  color: #8b0066;
+  color: #015301;
 }
 
 .toggle-btn,
@@ -83,7 +91,6 @@ header {
   text-decoration: none;
   height: 40px;
   width: 40px;
-  background-color: #aceff2;
 }
 
 .toggle-btn:before,
@@ -160,7 +167,7 @@ header {
     text-decoration: none;
     padding: .5em 1 em;
     display: inline-block;
-    color: #8b0066;
+    color: #015301;
     text-align: center;
     float: right;
     right: 80%;
@@ -168,7 +175,7 @@ header {
     border: none;
   }
   .navigation ul a:hover {
-    border-bottom: 4px solid #8b0066;
+    border-bottom: 4px solid #87e276;
   }
 }
 
